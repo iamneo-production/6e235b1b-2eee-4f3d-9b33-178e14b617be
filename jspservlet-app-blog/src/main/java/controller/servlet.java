@@ -27,6 +27,7 @@ public class servlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         
         String action = request.getContextPath();
+        
         try{
 			switch (action){
                 case "/new":
