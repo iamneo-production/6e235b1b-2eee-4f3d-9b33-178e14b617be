@@ -11,11 +11,7 @@
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.sources>jspservlet-app-blog/src/main</sonar.sources>
         <sonar.java.binaries>target</sonar.java.binaries>
-        
-
-
-
-    </properties>
+      </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
