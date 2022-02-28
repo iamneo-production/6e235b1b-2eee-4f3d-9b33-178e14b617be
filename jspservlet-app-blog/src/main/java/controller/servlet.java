@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import model.Blog;
 import service.BlogListDao;
 
+
 @WebServlet("/")
 public class servlet extends HttpServlet {
     private static final long serialVersionUID=1L;
